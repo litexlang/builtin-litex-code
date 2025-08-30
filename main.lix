@@ -1,0 +1,10 @@
+know forall a R:
+    a > 0
+    =>:
+        not a < 0
+
+know forall a R:
+    a < 0
+    =>:
+        not a > 0
+        not a >= 0
