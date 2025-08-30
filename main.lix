@@ -1,10 +1,24 @@
-know forall a R:
-    a > 0
-    =>:
-        not a < 0
+know:
+    forall a R:
+        a > 0
+        =>:
+            not a < 0
 
-know forall a R:
-    a < 0
-    =>:
-        not a > 0
-        not a >= 0
+know:
+    forall a R:
+        a < 0
+        =>:
+            not a > 0
+            not a >= 0
+
+know:
+    forall a, b R:
+            a = b
+            =>:
+                a ^ 2 = b * b
+
+know:
+    forall a, b, c, d R:
+        b + c = d
+        =>:
+            a + b + c = a + d
